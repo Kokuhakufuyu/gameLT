@@ -9,7 +9,7 @@ pygame.mixer.init()
 # Screen dimensions
 width, height = 800, 700
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Snake Game')
+pygame.display.set_caption('PIRATE ADVANTURE')
 
 # Colors
 yellow = (255, 255, 102)
