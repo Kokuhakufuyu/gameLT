@@ -199,8 +199,7 @@ def gameLoop():
                 elif event.key == pygame.K_DOWN:
                     y1_change = block_size
                     x1_change = 0
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
+            
 
 
         if x1 >= width or x1 < 0 or y1 >= height or y1 < 0:
